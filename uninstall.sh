@@ -8,4 +8,4 @@ fi
 systemctl stop ngrok.service
 systemctl disable ngrok.service
 rm /lib/systemd/system/ngrok.service
-rm -rf /opt/ngrok
+rm -rf /usr/local/bin/ngrok
